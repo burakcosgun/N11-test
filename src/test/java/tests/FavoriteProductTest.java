@@ -18,7 +18,7 @@ public class FavoriteProductTest extends BaseTest{
     private final static String EXPECTED_FAVORITE_URL="https://www.n11.com/hesabim/favorilerim";
 
     @Test
-    public void deleteFavoriteProductTest() throws InterruptedException {
+    public void addAndDeleteFavoriteProductTest() throws InterruptedException {
 
         String currentURL;
         String favoritedItemProductId;

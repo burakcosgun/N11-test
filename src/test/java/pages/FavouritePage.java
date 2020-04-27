@@ -39,7 +39,7 @@ public class FavouritePage extends BasePage {
         wait.until(ExpectedConditions.visibilityOf(menu));
         builder.moveToElement(menu).perform();
 
-        //click favorite on dropdown menu
+        //click logout on dropdown menu
         WebElement subelement= driver.findElement(By.linkText("Çıkış Yap"));
         wait.until(ExpectedConditions.elementToBeClickable(subelement));
         subelement.click();
